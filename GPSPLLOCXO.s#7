@@ -3233,8 +3233,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GPS10KHZIN" library="con-coax" deviceset="SMA-" device="142-0701-801/806"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="GPA10KHZOUT" library="con-coax" deviceset="SMA-" device="142-0701-801/806"/>
-<part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="10MHZOUT1" library="con-coax" deviceset="SMA-" device="142-0701-801/806"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="10MHZOUT2" library="con-coax" deviceset="SMA-" device="142-0701-801/806"/>
@@ -3304,8 +3302,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND8" gate="1" x="175.26" y="101.6"/>
 <instance part="GPS10KHZIN" gate="G1" x="-83.82" y="76.2"/>
 <instance part="GND9" gate="1" x="-78.74" y="66.04"/>
-<instance part="GPA10KHZOUT" gate="G1" x="-83.82" y="48.26"/>
-<instance part="GND10" gate="1" x="-78.74" y="35.56"/>
 <instance part="10MHZOUT1" gate="G1" x="-83.82" y="17.78"/>
 <instance part="GND11" gate="1" x="-78.74" y="5.08"/>
 <instance part="10MHZOUT2" gate="G1" x="-83.82" y="-7.62"/>
@@ -3410,12 +3406,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-78.74" y1="73.66" x2="-78.74" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GPA10KHZOUT" gate="G1" pin="2"/>
-<wire x1="-81.28" y1="45.72" x2="-78.74" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="-78.74" y1="45.72" x2="-78.74" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="10MHZOUT1" gate="G1" pin="2"/>
 <wire x1="-81.28" y1="15.24" x2="-78.74" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -3430,6 +3420,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="33.02" y1="43.18" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="-V"/>
+<junction x="33.02" y="43.18"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -3476,11 +3468,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-81.28" y1="76.2" x2="-76.2" y2="76.2" width="0.1524" layer="91"/>
 <label x="-76.2" y="76.2" size="1.778" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="GPA10KHZOUT" gate="G1" pin="1"/>
-<wire x1="-81.28" y1="48.26" x2="-76.2" y2="48.26" width="0.1524" layer="91"/>
-<label x="-76.2" y="48.26" size="1.778" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -3519,6 +3506,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="7.62" y1="55.88" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="60.96" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
 <junction x="7.62" y="55.88"/>
+<pinref part="U$1" gate="G$1" pin="-IN"/>
+<junction x="20.32" y="60.96"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -3691,6 +3680,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="P+4" gate="1" pin="+12V"/>
 <wire x1="33.02" y1="68.58" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="+V"/>
+<junction x="33.02" y="68.58"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3725,6 +3716,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U$1" gate="G$1" pin="+IN"/>
 <wire x1="20.32" y1="50.8" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="50.8" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
+<junction x="20.32" y="50.8"/>
 </segment>
 </net>
 </nets>

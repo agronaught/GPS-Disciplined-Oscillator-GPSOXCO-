@@ -3227,7 +3227,7 @@ Source: http://www.molex.com</description>
 </class>
 </classes>
 <parts>
-<part name="7805" library="SparkFun-PowerIC" deviceset="V_REG_78XX" device="-TO-220"/>
+<part name="7805" library="SparkFun-PowerIC" deviceset="V_REG_78XX" device="SINK"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA" value="1N4001"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="10UF-16V-10%(TANT)" device="" value="10uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="10UF-16V-10%(TANT)" device="" value="10uF"/>

@@ -2544,11 +2544,11 @@ Based on the following sources:
 <library name="untitled">
 <packages>
 <package name="131">
-<pad name="P$3" x="5.334" y="3.8354" drill="0.8" shape="square"/>
-<pad name="P$2" x="5.334" y="12.954" drill="0.8" shape="square"/>
-<pad name="P$1" x="5.334" y="21.6154" drill="0.8" shape="square"/>
-<pad name="P$5" x="30.734" y="21.6154" drill="0.8" shape="square"/>
-<pad name="P$4" x="30.734" y="3.8354" drill="0.8" shape="square"/>
+<pad name="P$3" x="5.334" y="3.8354" drill="1" diameter="2.1844" shape="octagon"/>
+<pad name="P$2" x="5.334" y="12.954" drill="1" diameter="2.1844" shape="octagon"/>
+<pad name="P$1" x="5.334" y="21.6154" drill="1" diameter="2.1844" shape="octagon"/>
+<pad name="P$5" x="30.734" y="21.6154" drill="1" diameter="2.1844" shape="octagon"/>
+<pad name="P$4" x="30.734" y="3.8354" drill="1" diameter="2.1844" shape="octagon"/>
 <wire x1="0" y1="27.178" x2="35.052" y2="27.178" width="0.127" layer="21"/>
 <wire x1="35.052" y1="27.178" x2="36.322" y2="25.908" width="0.127" layer="21" curve="-90"/>
 <wire x1="36.322" y1="25.908" x2="36.322" y2="1.077628125" width="0.127" layer="21"/>

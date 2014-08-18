@@ -3286,7 +3286,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="IC3" gate="A" x="73.66" y="10.16" rot="R180"/>
 <instance part="IC3" gate="B" x="35.56" y="7.62" rot="R180"/>
 <instance part="IC4" gate="A" x="-2.54" y="5.08" rot="R180"/>
-<instance part="IC4" gate="B" x="205.74" y="15.24"/>
 <instance part="GND4" gate="1" x="88.9" y="12.7"/>
 <instance part="GND5" gate="1" x="50.8" y="10.16"/>
 <instance part="GND6" gate="1" x="12.7" y="7.62"/>

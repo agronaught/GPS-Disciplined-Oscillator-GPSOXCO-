@@ -4839,7 +4839,6 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <sheets>
 <sheet>
 <plain>
-<text x="-20.32" y="86.36" size="1.27" layer="91">VIN - 9-30V</text>
 </plain>
 <instances>
 <instance part="TU60-D001" gate="G$1" x="25.4" y="33.02"/>

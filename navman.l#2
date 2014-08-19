@@ -72,15 +72,15 @@
 <hole x="46.8" y="4" drill="3.2"/>
 <hole x="46.8" y="78.55" drill="3.2"/>
 <hole x="4" y="78.55" drill="3.2"/>
-<pad name="P$1" x="32.41" y="9.44" drill="1.1" diameter="1.9304" shape="octagon"/>
-<pad name="P$2" x="34.95" y="9.44" drill="1.1" diameter="1.9304" shape="octagon"/>
-<pad name="P$3" x="37.49" y="9.44" drill="1.1" diameter="1.9304" shape="octagon"/>
-<pad name="P$4" x="40.03" y="9.44" drill="1.1" diameter="1.9304" shape="octagon"/>
-<pad name="P$5" x="42.57" y="9.44" drill="1.1" diameter="1.9304" shape="octagon"/>
-<pad name="P$6" x="42.57" y="6.9" drill="1.1" diameter="1.9304" shape="octagon"/>
-<pad name="P$7" x="40.03" y="6.9" drill="1.1" diameter="1.9304" shape="octagon"/>
-<pad name="P$8" x="37.49" y="6.9" drill="1.1" diameter="1.9304" shape="octagon"/>
-<pad name="P$9" x="34.95" y="6.9" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="P$9" x="32.41" y="9.44" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="P$7" x="34.95" y="9.44" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="P$5" x="37.49" y="9.44" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="P$3" x="40.03" y="9.44" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="P$1" x="42.57" y="9.44" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="P$2" x="42.57" y="6.9" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="P$4" x="40.03" y="6.9" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="P$6" x="37.49" y="6.9" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="P$8" x="34.95" y="6.9" drill="1.1" diameter="1.9304" shape="octagon"/>
 <pad name="P$10" x="32.41" y="6.9" drill="1.1" diameter="1.9304" shape="octagon"/>
 </package>
 </packages>

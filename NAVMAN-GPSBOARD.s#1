@@ -132,17 +132,14 @@
 <wire x1="7.62" y1="-3.81" x2="7.62" y2="8.89" width="0.127" layer="21"/>
 <wire x1="7.62" y1="8.89" x2="-5.08" y2="8.89" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="8.89" x2="-5.08" y2="-3.81" width="0.127" layer="21"/>
-<rectangle x1="0" y1="0" x2="50.8" y2="82.55" layer="21"/>
-<wire x1="0" y1="0" x2="50.8" y2="0" width="1.016" layer="21"/>
-<wire x1="50.8" y1="0" x2="50.8" y2="82.55" width="1.016" layer="21"/>
-<wire x1="0" y1="0" x2="50.8" y2="0" width="1.016" layer="48"/>
-<wire x1="50.8" y1="0" x2="50.8" y2="82.55" width="1.016" layer="48"/>
-<wire x1="50.8" y1="82.55" x2="0" y2="82.55" width="1.016" layer="48"/>
-<wire x1="0" y1="82.55" x2="0" y2="0" width="1.016" layer="48"/>
-<hole x="4" y="4" drill="3.2"/>
-<hole x="46.8" y="4" drill="3.2"/>
-<hole x="46.8" y="78.55" drill="3.2"/>
-<hole x="4" y="78.55" drill="3.2"/>
+<wire x1="1.27" y1="0" x2="52.07" y2="0" width="1.016" layer="48"/>
+<wire x1="52.07" y1="0" x2="52.07" y2="82.55" width="1.016" layer="48"/>
+<wire x1="52.07" y1="82.55" x2="1.27" y2="82.55" width="1.016" layer="48"/>
+<wire x1="1.27" y1="82.55" x2="1.27" y2="0" width="1.016" layer="48"/>
+<hole x="4" y="3.5" drill="3.2"/>
+<hole x="48.8" y="3.5" drill="3.2"/>
+<hole x="48.8" y="77.55" drill="3.2"/>
+<hole x="4" y="77.55" drill="3.2"/>
 <pad name="P$9" x="32.41" y="9.44" drill="1.1" diameter="1.9304" shape="octagon"/>
 <pad name="P$7" x="34.95" y="9.44" drill="1.1" diameter="1.9304" shape="octagon"/>
 <pad name="P$5" x="37.49" y="9.44" drill="1.1" diameter="1.9304" shape="octagon"/>
